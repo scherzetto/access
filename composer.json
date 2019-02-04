@@ -1,0 +1,24 @@
+{
+    "name": "scherzetto/access",
+    "description": "Simple property accessor",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "scherzetto/routing": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Zaslavsky",
+            "email": "benjamin.zaslavsky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": { "Scherzetto\\Access\\": ""},
+        "exclude-from-classmap": [
+            "/Test/"
+        ]
+    }
+}
